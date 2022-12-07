@@ -1,0 +1,21 @@
+
+
+
+.h_gallery_item .hover .mylight {
+  color: #fff;
+  font-size: 30px;
+  opacity: 0;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.h_gallery_item:hover .hover .mylight {
+  opacity: 1;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
+<a class="light" href="images/graphic/ph01.jpg" title="開大圖"><i class="fa fa-expand mr-2"></i></a>
+<a class="mylight" href="http://www.uuu.com.tw" target="_blank"  title="瀏覽網頁"><i class="fa fa-link"></i></a>

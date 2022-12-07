@@ -1,0 +1,19 @@
+﻿{"frames": {
+
+"_3D01":
+{
+	"frame": {"x":0,"y":0,"w":1366,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1366,"h":768},
+	"sourceSize": {"w":1366,"h":768}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "22.0.3.179",
+	"image": "light_atlas_2.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":1024},
+	"scale": "1"
+}
+}
