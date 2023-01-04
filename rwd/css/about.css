@@ -1,0 +1,121 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+.testimonials_area {
+  background-image: url(../images/about-bg.png);
+  position: relative;
+	
+}
+
+.testimonials_area .owl-prev, .testimonials_area .owl-next {
+    position: absolute;
+    right: 150px;
+    background: #f8b88b;
+    font-size: 24px;
+    color: #fcff4b;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 3px #5C5C5C;
+    box-shadow: 2px 2px 3px #5C5C5C;
+}
+
+.testimonials_area .owl-prev:hover, .testimonials_area .owl-next:hover {
+  color: #7cafc4;
+	box-shadow: 2px 2px 3px #9A9A9A;
+}
+
+.testimonials_area .owl-prev {
+  bottom: 50%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+	box-shadow: 2px 2px 3px #9A9A9A;
+}
+
+.testimonials_area .owl-prev:before {
+  content: "";
+  width: 28px;
+  background: #e8e8e8;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 0px;
+  height: 1px;
+	box-shadow: 2px 2px 3px #9A9A9A;
+}
+
+.testimonials_area .owl-next {
+  top: 50%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+	box-shadow: 2px 2px 3px #9A9A9A;
+}
+
+.c_feedback_text {
+  max-width: 430px;
+  margin-top: 44px;
+}
+
+.c_feedback_text h4 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 18px;
+}
+
+.c_feedback_text p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0px;
+}
+
+.t_slider {
+    background: rgba(248,185,137,.85);
+    border-radius: 15px;
+  
+}
+
+.t_slider .item .media {
+  padding: 40px 45px 40px 40px;
+}
+
+.t_slider .item .media .d-flex {
+  padding-right: 30px;
+}
+
+.t_slider .item .media .media-body p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+  color:#4a4238;
+  font-weight:500;
+  margin-bottom: 17px;
+}
+
+.t_slider .item .media .media-body h4 {
+  font-weight: bold;
+  color: #222222;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.t_slider .item .media .media-body h6 {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #777777;
+  margin-bottom: 0px;
+}
+
+

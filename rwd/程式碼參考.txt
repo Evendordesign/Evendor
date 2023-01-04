@@ -1,0 +1,439 @@
+﻿<link href="css/stylish-portfolio.css" rel="stylesheet">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><span class="fa fa-bars"></span></a>
+    <div id="sidebar-wrapper" class="mt-3">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><span class="fa fa-times"></span></a>
+           <li class="sidebar-brand"><a href="#">PROJECT 2</a>
+            </li>
+            <li class="page-scroll"><a href="#top">Home</a>
+            </li>
+            <li class="page-scroll"><a href="#services">SERVICES</a>
+            </li>
+            <li class="page-scroll"><a href="#graphic">GRAPHIC</a>
+            </li>
+            <li class="page-scroll"><a href="#web">WEB DESIGN</a>
+            </li>
+            <li class="page-scroll"><a href="#ani">ANIMATION</a>
+            </li>
+            <li class="page-scroll"><a href="#about">ABOUT</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /Side Menu -->
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+    <script>
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+<!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+        <div class="vert-text text-center">
+            <img src="images/logo.png" alt="Placeholder image">
+          <h3>WEB DESIGN / GRAPHIC DESIGN / ANIMATIONS</h3>
+          <li class="page-scroll" style="list-style-type:none"><a href="#about" class="btn btn-warning btn-lg">Find Out More</a></li>
+        </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+    <!-- Services -->
+    <div id="services" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2>SERVICES</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="service-item">
+                        <span class="service-icon fa fa-rocket"></span>
+                        <h4>Web Design</h4>
+                        <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-item">
+                        <span class="service-icon fa fa-magnet"></span>
+                        <h4>Graphic Design</h4>
+                        <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-item">
+                        <span class="service-icon fa fa-shield"></span>
+                        <h4>Animation</h4>
+                        <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-item">
+                        <span class="service-icon fa fa-pencil"></span>
+                        <h4>APP UI</h4>
+                        <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Services -->
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+<!-- ANIMATION -->
+    <div id="ani" class="ani">
+      <div class="container">
+        <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2>ANIMATION</h2>
+                    <hr>
+                </div>
+          </div>
+        
+        </div>
+    </div>
+    <!-- /ANIMATION -->
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+<!-- web -->
+    <div id="web" class="web">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2>WEB DESIGN</h2>
+                    <hr>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+<!-- /WEB -->
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+<!-- graphic -->
+    <div id="graphic" class="graphic">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2>GRAPHIC DESIGN</h2>
+                    <hr>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+<!-- /GRAPHIC -->
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+<!-- about -->
+    <div id="about" class="about">
+      <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2>ABOUT</h2>
+                    <hr>
+                </div>
+            </div>
+        
+      </div>
+  </div>
+
+<!-- /about -->
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <hr>
+                    <p>Copyright © Company 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+
+/////////////////////////////////////////////////////////////////////////////////////////ANIMATION內容
+
+
+                          <div class="row text-center">
+			      <div class="col-sm-4 offset-sm-2">
+					  <div class="card col-12"> <img class="card-img-top" src="images/ani/ani01.jpg" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Card title</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-primary">DEMO</a> </div>
+					          </div>
+                              </div>
+			      <div class="col-sm-4">
+					 <div class="card col-12"> <img class="card-img-top" src="images/ani/ani02.jpg" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Card title</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-primary">DEMO</a> </div>
+					  </div>
+			      </div>
+			    </div>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////WEB內容
+
+<div class="row">
+                <div class="col-md-6 col-lg-4">
+					<a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+					  <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+						<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+						  <i class="fa fa-search-plus fa-3x"></i>
+						</div>
+					  </div>
+					  <img class="img-fluid" src="images/web/dreams.png" alt="">
+					</a>
+				  </div>
+                
+            </div>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////<!-- Web Modal -->
+
+<!-- Web Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-sm-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="images/cabin.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>	
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/freelancer.min.js"></script>
+
+
+
+  <div id="mainNav"></div>
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////graphic內容
+
+	<div class="container">
+        		<div class="isotope_fillter">
+        			<ul class="gallery_filter list">
+						<li class="active" data-filter="*"><a href="#">All</a></li>
+						<li data-filter=".ph"><a href="#">Photoshop</a></li>
+						<li data-filter=".ill"><a href="#">Illustrator</a></li>
+						<li data-filter=".app"><a href="#">App UI</a></li>
+						<li data-filter=".webD"><a href="#">Web Design</a></li>
+					</ul>
+        		</div>
+        </div>
+        <div class="container">
+        		<div class="gallery_f_inner row imageGallery1">
+        			
+        		</div>
+        		<div class="button_more text-center mt-3">
+        			<a class="btn theme_btn" href="#">Load More Images</a>
+        		</div>
+        </div>
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+	<link rel="stylesheet" href="css/style.css">
+    	<link rel="stylesheet" href="css/responsive.css">  
+	<link rel="stylesheet" href="lightbox/simpleLightbox.css"> 
+
+
+
+
+    <!--================graphic Gallery Area =================-->  
+    <script src="lightbox/simpleLightbox.min.js"></script><!--大圖瀏覽-->
+    <script src="nice-select/js/jquery.nice-select.min.js"></script>
+	  
+    <script src="js/imagesloaded.pkgd.min.js"></script><!--圖分類-->
+    <script src="js/stellar.js"></script>
+    <script src="js/isotope-min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/theme.js"></script>
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+				<div class="col-lg-3 col-md-4 col-sm-4 col-6 ph">
+        				<div class="h_gallery_item">
+        					<img src="images/graphic/ph01-s.jpg" alt="">
+        					<div class="hover">
+        						<a class="light" href="images/graphic/ph01.jpg"><i class="fa fa-expand"></i></a>
+        					</div>
+        				</div>
+        			</div>
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////about內容
+
+
+<div class="row">
+              
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+								<img src="images/about/1.jpg" class="rounded-circle img-fluid" alt="Placeholder image">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2009-2011</h4>
+                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img src="images/about/2.jpg" class="rounded-circle img-fluid" alt="Placeholder image">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>March 2011</h4>
+                                    <h4 class="subheading">An Agency is Born</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img src="images/about/3.jpg" class="rounded-circle img-fluid" alt="Placeholder image">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>December 2012</h4>
+                                    <h4 class="subheading">Transition to Full Service</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img src="images/about/4.jpg" class="rounded-circle img-fluid" alt="Placeholder image">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>July 2014</h4>
+                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
+
+        </div>
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+<link rel="stylesheet" href="css/agency.min.css"> 
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+<!-- Callout -->
+    <div class="callout">
+        <div class="vert-text">
+            <h1>A Dramatic Text Area</h1>
+        </div>
+    </div>
+    <!-- /Callout -->
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded-circle bg-danger" href="#page-top">
+        <i class="fa fa-home"></i>
+      </a>
+    </div>
+
+
+

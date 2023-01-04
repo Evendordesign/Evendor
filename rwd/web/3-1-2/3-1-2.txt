@@ -1,0 +1,25 @@
+<style type="text/css">
+
+html,body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+.floater {
+	height: 50%;
+	width: 1px;
+	margin-bottom: -290px;
+}
+
+.content {
+	height: 580px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-image:url(bg.jpg);
+	background-repeat:repeat-x;
+	text-align:center;
+}
+
+</style>

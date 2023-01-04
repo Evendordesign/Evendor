@@ -1,0 +1,130 @@
+@charset "utf-8";
+html,body{
+	height: 100%;
+}
+
+/*輪播滿版carousel*/
+.carousel{     /*copy3-4-7 code最外層*/
+	
+	height: 100%;
+}
+
+.carousel-item,.active,.carousel-inner  {    /*copy3-4-7 code其他內層*/
+	height:100%;
+}
+
+.fill {
+	width:100%;
+	height:100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.footer-block{
+	
+	background-color: #FEDC9E;
+	text-align: center;	
+	padding: 15px 0 0 0;
+}
+
+
+
+/*一頁式*/
+.intro-section{
+    height: 100%;
+    padding-top: 250px;
+    background-color: aquamarine;
+    text-align: center;
+    background-image: url(images/PIC4.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+	
+}
+.music-section{
+    height: 100%;
+    padding-top: 250px;
+    background-color: beige;
+    text-align: center;
+    
+    background-image: linear-gradient(329deg,rgba(255,218,149,0.89) 0%,rgba(255,157,157,1.00) 100%);
+	
+}
+
+.picture-section{
+    height: 100%;
+    padding-top: 250px;
+    background-color: lavender;
+    text-align: center;
+    background-image: url(images/PIC1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+	
+}
+
+
+.video-section{
+    height: 100%;
+    padding-top: 250px;
+    background-color: pink;
+    text-align: center;
+   
+    background-image: linear-gradient(125deg,rgba(122,255,166,0.83) 0%,rgba(136,201,255,0.83) 100%);
+	
+}
+
+
+.contact-section{
+    height: 100%;
+    padding-top: 250px;
+    background-color: skyblue;
+    text-align: center;
+    background-image: url(images/PIC3.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+	
+}
+
+.row-bg{
+	background-color: rgba(245,245,245,0.65);
+	border-radius: 30px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+}
+.row-line{
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border: 1px solid #FFFFFF;
+}
+
+
+.mycolor1{
+    color: rgba(59,255,209,1.00);	
+}
+
+.mycolor2{
+    color: rgba(255,240,112,0.95);   	
+}
+
+.mycolor3{
+    color:#FB39F4;     	
+}
+
+.mycolor4{
+    color:#18478E;         	
+
+}
+
+
+
+.myfont14{
+	font-size: 14pt;
+}
+
+.myfont11{
+	font-size: 11pt;
+}

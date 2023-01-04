@@ -1,0 +1,5 @@
+this.addEventListener("tick",autoOpen);
+
+function autoOpen(){
+	window.open("xxx.html", "_top");
+}

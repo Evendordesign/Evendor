@@ -1,0 +1,189 @@
+charset "utf-8";
+
+body {
+
+
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    line-height: normal;
+   /* border-right: 1px solid #A4A4A4;
+    border-left: 1px solid #A4A4A4;
+    border-bottom: 1px solid #A4A4A4;
+    border-radius: 30px;
+	box-shadow: 0px 0px 3px;
+	padding:0px 0px 1000px 0px;*/
+	
+	
+}
+
+
+.pic1 {
+    background-image: url(images/images/images/burger_04.png);
+    background-repeat: no-repeat;
+    height: 301px;
+    width: 299px;
+    float: left;
+    margin: 10px 0px 0px 40px;
+}
+
+.pic2 {
+    background-image: url(images/images/png_big_pic_04.png);
+    background-repeat: no-repeat;
+    float: right;
+    height: 340px;
+    width: 685px;
+	margin: 0px 85px 12px 0px;
+}
+
+.menu1 {
+    margin-right: auto;
+    margin-left: auto;
+	margin-top: -60px;
+    clear: both;
+	float: right;
+	
+}
+
+.menu1 ul{
+	
+	padding: 0 ;
+	margin: 0;
+	 
+}
+.menu1 ul li{
+    float: left;
+   
+    list-style-type: none;	 
+}
+.menu1 ul li a{
+    width: 147px;
+    display: block;
+    color: #321C01;
+    font-family: "微軟正黑體";
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    background-image: url(images/images/btn_04.jpg);
+    background-repeat: no-repeat;
+    padding-right: 20px;
+	
+	
+	/* transition: all 1s ease-out;*/
+}
+.menu1 ul li a:hover{
+    background-image: url(images/images/btn_06.png);
+    transform: translateY(-10px);
+    color: #FFF;	
+	
+}
+.Main {
+	clear: both;
+}
+
+.m-left {
+    float: left;
+    width: 302px;
+    height: 512px;
+    clear: both;
+    background-image: url(images/images/images/burger_14.gif);
+    margin: 25px 30px 0px 40px;
+    padding: 40px 0px 10px 0px;
+    background-repeat: no-repeat;
+       
+   
+}
+
+.m-left ul {
+	padding: 0 ;
+	margin: 0;
+}
+.m-left ul li{
+    list-style-type: none;
+    border-bottom: 1px dashed #EC771D;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.m-left ul li a{
+    line-height: 40px;
+    font-family: "微軟正黑體";
+    color: #321C01;
+    display: block;
+    text-decoration: none;
+	text-align: center; 
+    
+}
+
+.m-right {
+	width: 800px;
+	float:right;
+	margin: 10px 0px 50px 0px
+}
+
+.inner{
+    text-align: center;
+    background-image: url(images/images/images/burger_16.gif);
+    width: 790px;
+    height: 59px;
+    line-height: 55px;
+    font-family: "微軟正黑體";
+    font-size: 13pt;
+	margin-bottom: 15px;
+}
+
+.imageBox {
+	background-color: #FFE3C0;
+    width: 232px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom:10px;
+    padding-left:12px;
+    border: 2px solid #E57705;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+	
+	
+}
+
+
+.word{
+    color: #9B4E00;
+    font-family: "微軟正黑體";
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;	
+}
+.footer {
+ 	 
+ 
+    background-image: url(images/images/images/burger_21.gif);
+
+    height: 52px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 8pt;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-indent: 0.2em;
+    clear: both;
+    margin: 0px;
+	bottom: 0px;
+	
+}
+
+
+/*
+.container header {
+	width: 1200px;
+	height: 100px;
+    background-color: #F9F7D5;	
+}*/
